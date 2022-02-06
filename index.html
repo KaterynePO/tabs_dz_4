@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>TABS</h1>
+    <div class="tabs-block-wrapper">
+      <div id="tabs">
+        <div class="tab-btn active" data-btn="1">1</div>
+        <div class="tab-btn" data-btn="2">2</div>
+        <div class="tab-btn" data-btn="3">3</div>
+      </div>
+      <div id="contents">
+        <div class="content active" data-content="1">
+          Lorem ipsum dolor sit amet consectetur.
+        </div>
+        <div class="content" data-content="2">
+          Eligendi minus, esse error, dolor officiis!
+        </div>
+        <div class="content" data-content="3">
+          <div class="tabs-block-wrapper-in">
+            <div id="tabs-in">
+              <div class="tab-btn-in active" data-btn-in="1">1</div>
+              <div class="tab-btn-in" data-btn-in="2">2</div>
+            </div>
+            <div id="contents-in">
+              <div class="content-in active" data-content-in="1">
+                Lorem ipsum dolor sit amet consectetur?
+              </div>
+              <div class="content-in" data-content-in="2">
+                Lorem ipsum dolor sit amet!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
